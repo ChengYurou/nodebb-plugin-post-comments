@@ -1,6 +1,7 @@
 {
   "id": "nodebb-plugin-post-comments",
   "library": "./library.js",
+  "url": "https://github.com/ChengYurou/nodebb-plugin-post-comments",
   "hooks": [
     { "hook": "filter:scripts.get", "method": "addScripts" },
     { "hook": "static:app.load", "method": "init" },
